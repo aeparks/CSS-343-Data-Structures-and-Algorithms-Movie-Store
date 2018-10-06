@@ -1,0 +1,362 @@
+Script started on Wed 10 Mar 2010 06:26:34 PM PST
+[parksae@uw1-320-25 ~]$ ls
+[00m[00mborrow.cpp[00m   [00mcomedy.h[00m            [00mdata4movies.txt[00m  [00mhistory_t.h[00m  [00mmain.cpp[00m          [00mreturn_t.cpp[00m   [00mtransfactory.cpp[00m  [00mtree.h[00m
+[00mborrow.h[00m     [00mcustomer.cpp[00m        [01;34mDesktop[00m          [00mitem.cpp[00m     [00mmovie.cpp[00m         [00mreturn_t.h[00m     [00mtransfactory.h[00m    [00mtypescript[00m
+[00mclassic.cpp[00m  [00mcustomer.h[00m          [00mdrama.cpp[00m        [00mitem.h[00m       [00mmoviefactory.cpp[00m  [00mstore.cpp[00m      [00mtree.cpp[00m
+[00mclassic.h[00m    [00mdata4commands.txt[00m   [00mdrama.h[00m          [00mlist.cpp[00m     [00mmoviefactory.h[00m    [00mstore.h[00m        [00mtreefactory.cpp[00m
+[00mcomedy.cpp[00m   [00mdata4customers.txt[00m  [00mhistory_t.cpp[00m    [00mlist.h[00m       [00mmovie.h[00m           [00mtransaction.h[00m  [00mtreefactory.h[00m
+[m[parksae@uw1-320-25 ~]$ g++ *.cpp
+In file included from transaction.h:16,
+                 from borrow.h:14,
+                 from borrow.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from borrow.h:14,
+                 from borrow.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from borrow.cpp:6:
+borrow.h:42:7: warning: no newline at end of file
+borrow.cpp:72:2: warning: no newline at end of file
+In file included from movie.h:14,
+                 from classic.h:17,
+                 from classic.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from classic.h:17,
+                 from classic.cpp:6:
+movie.h:78:7: warning: no newline at end of file
+In file included from classic.cpp:6:
+classic.h:65:7: warning: no newline at end of file
+classic.cpp:241:2: warning: no newline at end of file
+In file included from movie.h:14,
+                 from comedy.h:15,
+                 from comedy.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from comedy.h:15,
+                 from comedy.cpp:6:
+movie.h:78:7: warning: no newline at end of file
+In file included from comedy.cpp:6:
+comedy.h:41:7: warning: no newline at end of file
+comedy.cpp:174:2: warning: no newline at end of file
+In file included from transaction.h:16,
+                 from list.h:15,
+                 from customer.h:24,
+                 from customer.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from list.h:15,
+                 from customer.h:24,
+                 from customer.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from customer.h:24,
+                 from customer.cpp:6:
+list.h:46:7: warning: no newline at end of file
+In file included from customer.cpp:6:
+customer.h:51:7: warning: no newline at end of file
+customer.cpp:64:2: warning: no newline at end of file
+In file included from movie.h:14,
+                 from drama.h:15,
+                 from drama.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from drama.h:15,
+                 from drama.cpp:6:
+movie.h:78:7: warning: no newline at end of file
+In file included from drama.cpp:6:
+drama.h:41:7: warning: no newline at end of file
+drama.cpp:168:2: warning: no newline at end of file
+In file included from transaction.h:16,
+                 from history_t.h:15,
+                 from history_t.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from history_t.h:15,
+                 from history_t.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from history_t.cpp:6:
+history_t.h:39:7: warning: no newline at end of file
+history_t.cpp:44:2: warning: no newline at end of file
+In file included from item.cpp:6:
+item.h:59:7: warning: no newline at end of file
+item.cpp:38:2: warning: no newline at end of file
+In file included from transaction.h:16,
+                 from list.h:15,
+                 from list.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from list.h:15,
+                 from list.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from list.cpp:6:
+list.h:46:7: warning: no newline at end of file
+list.cpp:87:2: warning: no newline at end of file
+In file included from main.cpp:6:
+store.h:98:7: warning: no newline at end of file
+main.cpp:42:2: warning: no newline at end of file
+In file included from movie.h:14,
+                 from movie.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from movie.cpp:6:
+movie.h:78:7: warning: no newline at end of file
+movie.cpp:51:2: warning: no newline at end of file
+In file included from movie.h:14,
+                 from classic.h:17,
+                 from moviefactory.h:14,
+                 from moviefactory.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from classic.h:17,
+                 from moviefactory.h:14,
+                 from moviefactory.cpp:6:
+movie.h:78:7: warning: no newline at end of file
+In file included from moviefactory.h:14,
+                 from moviefactory.cpp:6:
+classic.h:65:7: warning: no newline at end of file
+In file included from moviefactory.h:15,
+                 from moviefactory.cpp:6:
+drama.h:41:7: warning: no newline at end of file
+In file included from moviefactory.h:16,
+                 from moviefactory.cpp:6:
+comedy.h:41:7: warning: no newline at end of file
+In file included from moviefactory.cpp:6:
+moviefactory.h:42:7: warning: no newline at end of file
+moviefactory.cpp:67:2: warning: no newline at end of file
+In file included from transaction.h:16,
+                 from return_t.h:15,
+                 from return_t.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from return_t.h:15,
+                 from return_t.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from return_t.cpp:6:
+return_t.h:41:7: warning: no newline at end of file
+return_t.cpp:71:2: warning: no newline at end of file
+In file included from store.cpp:6:
+store.h:98:7: warning: no newline at end of file
+In file included from tree.h:23,
+                 from store.cpp:7:
+item.h:59:7: warning: no newline at end of file
+In file included from store.cpp:7:
+tree.h:71:7: warning: no newline at end of file
+In file included from list.h:15,
+                 from customer.h:24,
+                 from store.cpp:8:
+transaction.h:38:7: warning: no newline at end of file
+In file included from customer.h:24,
+                 from store.cpp:8:
+list.h:46:7: warning: no newline at end of file
+In file included from store.cpp:8:
+customer.h:51:7: warning: no newline at end of file
+In file included from store.cpp:10:
+treefactory.h:39:7: warning: no newline at end of file
+In file included from classic.h:17,
+                 from moviefactory.h:14,
+                 from store.cpp:11:
+movie.h:78:7: warning: no newline at end of file
+In file included from moviefactory.h:14,
+                 from store.cpp:11:
+classic.h:65:7: warning: no newline at end of file
+In file included from moviefactory.h:15,
+                 from store.cpp:11:
+drama.h:41:7: warning: no newline at end of file
+In file included from moviefactory.h:16,
+                 from store.cpp:11:
+comedy.h:41:7: warning: no newline at end of file
+In file included from store.cpp:11:
+moviefactory.h:42:7: warning: no newline at end of file
+In file included from transfactory.h:29,
+                 from store.cpp:12:
+borrow.h:42:7: warning: no newline at end of file
+In file included from transfactory.h:30,
+                 from store.cpp:12:
+return_t.h:41:7: warning: no newline at end of file
+In file included from transfactory.h:31,
+                 from store.cpp:12:
+history_t.h:39:7: warning: no newline at end of file
+In file included from store.cpp:12:
+transfactory.h:63:7: warning: no newline at end of file
+store.cpp:53:17: warning: multi-character character constant
+store.cpp:383:2: warning: no newline at end of file
+store.cpp: In member function ‘virtual void Store::createTrees(std::ifstream&)’:
+store.cpp:53: warning: overflow in implicit constant conversion
+In file included from transfactory.h:28,
+                 from transfactory.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from borrow.h:14,
+                 from transfactory.h:29,
+                 from transfactory.cpp:6:
+transaction.h:38:7: warning: no newline at end of file
+In file included from transfactory.h:29,
+                 from transfactory.cpp:6:
+borrow.h:42:7: warning: no newline at end of file
+In file included from transfactory.h:30,
+                 from transfactory.cpp:6:
+return_t.h:41:7: warning: no newline at end of file
+In file included from transfactory.h:31,
+                 from transfactory.cpp:6:
+history_t.h:39:7: warning: no newline at end of file
+In file included from transfactory.cpp:6:
+transfactory.h:63:7: warning: no newline at end of file
+transfactory.cpp:100:2: warning: no newline at end of file
+In file included from tree.h:23,
+                 from tree.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from tree.cpp:6:
+tree.h:71:7: warning: no newline at end of file
+tree.cpp:201:2: warning: no newline at end of file
+In file included from tree.h:23,
+                 from treefactory.h:13,
+                 from treefactory.cpp:6:
+item.h:59:7: warning: no newline at end of file
+In file included from treefactory.h:13,
+                 from treefactory.cpp:6:
+tree.h:71:7: warning: no newline at end of file
+In file included from treefactory.cpp:6:
+treefactory.h:39:7: warning: no newline at end of file
+treefactory.cpp:63:2: warning: no newline at end of file
+[parksae@uw1-320-25 ~]$ ls
+[00m[01;32ma.out[00m        [00mcomedy.cpp[00m         [00mdata4customers.txt[00m  [00mhistory_t.cpp[00m  [00mlist.h[00m            [00mmovie.h[00m       [00mtransaction.h[00m     [00mtreefactory.h[00m
+[00mborrow.cpp[00m   [00mcomedy.h[00m           [00mdata4movies.txt[00m     [00mhistory_t.h[00m    [00mmain.cpp[00m          [00mreturn_t.cpp[00m  [00mtransfactory.cpp[00m  [00mtree.h[00m
+[00mborrow.h[00m     [00mcustomer.cpp[00m       [01;34mDesktop[00m             [00mitem.cpp[00m       [00mmovie.cpp[00m         [00mreturn_t.h[00m    [00mtransfactory.h[00m    [00mtypescript[00m
+[00mclassic.cpp[00m  [00mcustomer.h[00m         [00mdrama.cpp[00m           [00mitem.h[00m         [00mmoviefactory.cpp[00m  [00mstore.cpp[00m     [00mtree.cpp[00m
+[00mclassic.h[00m    [00mdata4commands.txt[00m  [00mdrama.h[00m             [00mlist.cpp[00m       [00mmoviefactory.h[00m    [00mstore.h[00m       [00mtreefactory.cpp[00m
+[m[parksae@uw1-320-25 ~]$ ./a.out
+  *** Classics ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR         MO YEAR ACTOR
+10   0   Holiday               George Cukor      9 1938 Cary Grant       
+10   0   Holiday               George Cukor      9 1938 Katherine Hepburn
+10   0   Gone With the Wind    Victor Fleming    2 1939 Clark Gable      
+10   0   Gone With the Wind    Victor Fleming    2 1939 Vivien Leigh     
+10   0   The Wizard of Oz      Victor Fleming    7 1939 Judy Garland     
+10   0   The Philadelphia Stor George Cukor      5 1940 Cary Grant       
+10   0   The Philadelphia Stor George Cukor      5 1940 Katherine Hepburn
+10   0   The Maltese Falcon    John Huston      10 1941 Humphrey Bogart  
+10   0   Casablanca            Michael Curtiz    8 1942 Humphrey Bogart  
+10   0   Casablanca            Michael Curtiz    8 1942 Ingrid Bergman   
+10   0   It's a Wonderful Life Frank Capra      11 1946 Donna Reed       
+10   0   It's a Wonderful Life Frank Capra      11 1946 James Steward    
+10   0   A Clockwork Orange    Stanley Kubrick   2 1971 Malcolm McDowell 
+10   0   Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+
+  *** Drama ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR            YEAR
+10   0   Good Morning Vietnam  Barry Levinson      1988 
+10   0   Unforgiven            Clint Eastwood      1992 
+10   0   Good Will Hunting     Gus Van Sant        2000 
+10   0   Silence of the Lambs  Jonathan Demme      1991 
+10   0   Dogfight              Nancy Savoca        1991 
+10   0   King of Hearts        Phillippe De Bro    1967 
+10   0   Schindler's List      Steven Spielberg    1993 
+
+  *** Comedy ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR            YEAR
+10   0   Annie Hall            Woody Allen         1977 
+10   0   Fargo                 Joel Coen           1996 
+10   0   National Lampoon's An John Landis         1978 
+10   0   Pirates of the Caribb Gore Verbinski      2003 
+10   0   Sleepless in Seattle  Nora Ephron         1993 
+10   0   When Harry Met Sally  Rob Reiner          1989 
+10   0   You've Got Mail       Nora Ephron         1998 
+
+
+   *** Customer ID = 1000  Mouse Minnie
+ No History on File
+
+   *** Customer ID = 5000  Frog Freddie
+ No History on File
+
+   *** Customer ID = 8000  Wacky Wally
+ No History on File
+
+!-Genre Z Is Unknown
+
+!-Transaction Type X Unknown
+
+!-Transaction Type Z Unknown
+
+!-Customer ID 1234 Not Assigned
+
+! Movie Not Found In Collection
+
+!-Media Type Z Is Unknown
+
+! Movie Not Found In Collection
+
+  *** Classics ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR         MO YEAR ACTOR
+ 9   1   Holiday               George Cukor      9 1938 Cary Grant       
+10   0   Holiday               George Cukor      9 1938 Katherine Hepburn
+10   0   Gone With the Wind    Victor Fleming    2 1939 Clark Gable      
+10   0   Gone With the Wind    Victor Fleming    2 1939 Vivien Leigh     
+10   0   The Wizard of Oz      Victor Fleming    7 1939 Judy Garland     
+ 9   1   The Philadelphia Stor George Cukor      5 1940 Cary Grant       
+ 9   1   The Philadelphia Stor George Cukor      5 1940 Katherine Hepburn
+ 9   1   The Maltese Falcon    John Huston      10 1941 Humphrey Bogart  
+10   0   Casablanca            Michael Curtiz    8 1942 Humphrey Bogart  
+10   0   Casablanca            Michael Curtiz    8 1942 Ingrid Bergman   
+10   0   It's a Wonderful Life Frank Capra      11 1946 Donna Reed       
+10   0   It's a Wonderful Life Frank Capra      11 1946 James Steward    
+ 9   1   A Clockwork Orange    Stanley Kubrick   2 1971 Malcolm McDowell 
+ 3   7   Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+
+  *** Drama ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR            YEAR
+ 9   1   Good Morning Vietnam  Barry Levinson      1988 
+ 9   1   Unforgiven            Clint Eastwood      1992 
+ 9   1   Good Will Hunting     Gus Van Sant        2000 
+ 9   1   Silence of the Lambs  Jonathan Demme      1991 
+ 8   2   Dogfight              Nancy Savoca        1991 
+ 9   1   King of Hearts        Phillippe De Bro    1967 
+ 9   1   Schindler's List      Steven Spielberg    1993 
+
+  *** Comedy ***
+*IN* *OUT*
+DVD  DVD TITLE                 DIRECTOR            YEAR
+ 9   1   Annie Hall            Woody Allen         1977 
+ 9   1   Fargo                 Joel Coen           1996 
+ 9   1   National Lampoon's An John Landis         1978 
+10   0   Pirates of the Caribb Gore Verbinski      2003 
+ 9   1   Sleepless in Seattle  Nora Ephron         1993 
+ 9   1   When Harry Met Sally  Rob Reiner          1989 
+ 9   1   You've Got Mail       Nora Ephron         1998 
+
+
+   *** Customer ID = 1000  Mouse Minnie
+    Histor  Display Request
+DVD Borrow  Good Morning Vietnam  Barry Levinson      1988 
+DVD Borrow  The Philadelphia Stor George Cukor      5 1940 Katherine Hepburn
+DVD Borrow  Good Will Hunting     Gus Van Sant        2000 
+DVD Borrow  The Philadelphia Stor George Cukor      5 1940 Cary Grant       
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+
+   *** Customer ID = 1111  Mouse Mickey
+DVD Borrow  A Clockwork Orange    Stanley Kubrick   2 1971 Malcolm McDowell 
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Borrow  The Maltese Falcon    John Huston      10 1941 Humphrey Bogart  
+DVD Borrow  Holiday               George Cukor      9 1938 Cary Grant       
+
+   *** Customer ID = 5000  Frog Freddie
+    Histor  Display Request
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Return  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Return  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Return  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+
+   *** Customer ID = 8000  Wacky Wally
+    Histor  Display Request
+DVD Borrow  You've Got Mail       Nora Ephron         1998 
+DVD Return  You've Got Mail       Nora Ephron         1998 
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+DVD Borrow  National Lampoon's An John Landis         1978 
+
+   *** Customer ID = 8888  Pig Porky
+DVD Borrow  Annie Hall            Woody Allen         1977 
+DVD Borrow  When Harry Met Sally  Rob Reiner          1989 
+DVD Borrow  Silence of the Lambs  Jonathan Demme      1991 
+DVD Borrow  Dogfight              Nancy Savoca        1991 
+DVD Borrow  Harold and Maude      Hal Ashby         3 1971 Ruth Gordon      
+
+[parksae@uw1-320-25 ~]$ exit
+
+Script done on Wed 10 Mar 2010 06:27:00 PM PST
