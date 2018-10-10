@@ -1,4 +1,5 @@
-# "Movie Store" (Spring 2010)
-This is the final project for the intermediate / advanced C++ course at the University of Washington Bothell.
+# CSS 343 : "Move Store"
+Written as the final project for CSS 343 : Data Structures, Algorithms, and Discrete Math II -- the intermediate / advanced C++ programming course -- at the University of Washington | Bothell.
 
-The purpose of the program is to emulate a movie store complete with an inventory of items and a customer "database".  It made use of several concepts learned during the two C++ courses including linked lists, hash tables, pointers, and dynamic memory allocation.
+# Premise
+The purpose of this project was to emulate the needs and typical transation of a movie rental store.  This included a customer "database" and an inventory "database".  In the case of this project, the databases were constructed using linked lists sorted when inserted. The project made use of several key concepts learned during the two C++ courses including linked lists, operator overloading, inheritance, hash tables, pointers, and dynamic memory allocation.
