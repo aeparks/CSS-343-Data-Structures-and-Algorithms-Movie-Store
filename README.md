@@ -1,4 +1,4 @@
-# CSS 343 : "Move Store"
+# CSS 343 : "Movie Store"
 Written as the final project for CSS 343 : Data Structures, Algorithms, and Discrete Math II -- the intermediate / advanced C++ programming course -- at the University of Washington | Bothell.
 
 # Premise
